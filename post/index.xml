@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Hyungkeun World!</title>
-        <link>https://choihyungkuen.github.io/ChoiHyungKeun.github.io/post/</link>
+        <link>https://choihyungkuen.github.io/post/</link>
         <description>Recent content in Posts on Hyungkeun World!</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>최형근</copyright>
-        <lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://choihyungkuen.github.io/ChoiHyungKeun.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://choihyungkuen.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Git Submodule 정리</title>
-        <link>https://choihyungkuen.github.io/ChoiHyungKeun.github.io/p/git-submodule-%EC%A0%95%EB%A6%AC/</link>
+        <link>https://choihyungkuen.github.io/p/git-submodule-%EC%A0%95%EB%A6%AC/</link>
         <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://choihyungkuen.github.io/ChoiHyungKeun.github.io/p/git-submodule-%EC%A0%95%EB%A6%AC/</guid>
+        <guid>https://choihyungkuen.github.io/p/git-submodule-%EC%A0%95%EB%A6%AC/</guid>
         <description>&lt;h1 id=&#34;git-submodule-정리&#34;&gt;Git SUBMODULE 정리&lt;/h1&gt;
 &lt;h2 id=&#34;서브모듈이란&#34;&gt;&lt;strong&gt;서브모듈이란?&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Git 에서의 서브 모듈은 &amp;ldquo;Git 저장소 (메인 저장소) 안에 다른 Git 저장소 (서브 저장소 - 재사용 및 공유 가능한 공통 &amp;ldquo;모듈&amp;quot;들을 주로 의미) 를 디렉토리로 분리해 넣는 것&amp;rdquo; 입니다. 서브모듈에 포함된 데이터는 내 Git 저장소에 디렉토리를 생성하여 넣기 때문에 독립적으로 커밋을 관리할 수 있습니다. 이 때, 메인 저장소와 서브 저장소의 커밋들은 동기화되지 않으며, 별도로 관리하게 됩니다.&lt;/p&gt;
@@ -321,7 +321,7 @@
 &lt;h1 id=&#34;서브모듈-실습&#34;&gt;서브모듈 실습&lt;/h1&gt;
 &lt;h2 id=&#34;준비&#34;&gt;&lt;strong&gt;준비&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;실제 Github 활용해서 간단하게 테스트 해보려고 합니다. 아래와 같이 TestMain (Public Repository) 와 TestSub (Private Repository) 총 2개의 Repository를 생성했습니다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://choihyungkuen.github.io/ChoiHyungKeun.github.io/ChoiHyungKeun.github.io/assets/posting1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://choihyungkuen.github.io/assets/posting1.png&#34;
 	
 	
 	
@@ -331,7 +331,7 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;TestMain에는 README.md 파일만 존재하고&lt;/p&gt;
 &lt;p&gt;TestSub에는 아래와 같이 test.properites 라는 파일과 README.md 파일이 존재합니다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://choihyungkuen.github.io/ChoiHyungKeun.github.io/ChoiHyungKeun.github.io/assets/posting2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://choihyungkuen.github.io/assets/posting2.png&#34;
 	
 	
 	
@@ -388,7 +388,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;이후에 TestMain 폴더를 VisualStudioCode로 열어서 폴더 구조를 확인 합니다.&lt;/p&gt;
 &lt;p&gt;그러면 아래와 같이 .gitmodules 파일에 sub 라는 이름으로 TestSub 레파지토리가 서브 모듈로 생성되었다는 것을 확인 할 수 있습니다. 여기서 주목할 점은 TestSub가 아닌 sub 라는 이름으로 실제 폴더가 만들어졌다는 점입니다. 이렇게 만들어지면 일반적인 폴더와 똑같이 사용하면 됩니다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://choihyungkuen.github.io/ChoiHyungKeun.github.io/ChoiHyungKeun.github.io/assets/posting3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://choihyungkuen.github.io/assets/posting3.png&#34;
 	
 	
 	
@@ -436,7 +436,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;그러면 아래와 같이 &lt;strong&gt;sub@d940787&lt;/strong&gt;이라는 이름으로 서브모듈이 생긴 것을 확인 할 수 있습니다. 로그인 했을 때는 클릭하면 기존의 TestSub 레파지토리인 것을 확인할 수 있습니다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://choihyungkuen.github.io/ChoiHyungKeun.github.io/ChoiHyungKeun.github.io/assets/posting4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://choihyungkuen.github.io/assets/posting4.png&#34;
 	
 	
 	
@@ -444,7 +444,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://choihyungkuen.github.io/ChoiHyungKeun.github.io/ChoiHyungKeun.github.io/assets/posting5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://choihyungkuen.github.io/assets/posting5.png&#34;
 	
 	
 	
@@ -453,7 +453,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;로그인 안 된 상태에서 해당 레파지토리에서 서브모듈을 클릭하게 되면 Private 레파지토리이기때문에 아래와 같이 404페이지를 띄워주어서 확인이 불가능 합니다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://choihyungkuen.github.io/ChoiHyungKeun.github.io/ChoiHyungKeun.github.io/assets/posting6.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://choihyungkuen.github.io/assets/posting6.png&#34;
 	
 	
 	
@@ -461,7 +461,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://choihyungkuen.github.io/ChoiHyungKeun.github.io/ChoiHyungKeun.github.io/assets/posting7.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://choihyungkuen.github.io/assets/posting7.png&#34;
 	
 	
 	
@@ -480,10 +480,10 @@
         </item>
         <item>
         <title>HandlerIntercepter</title>
-        <link>https://choihyungkuen.github.io/ChoiHyungKeun.github.io/p/handlerintercepter/</link>
+        <link>https://choihyungkuen.github.io/p/handlerintercepter/</link>
         <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://choihyungkuen.github.io/ChoiHyungKeun.github.io/p/handlerintercepter/</guid>
+        <guid>https://choihyungkuen.github.io/p/handlerintercepter/</guid>
         <description>&lt;p&gt;이번에 일감을 처리하다가 특정 URL에 대한 메뉴 정보를 어떻게 받아오는지 어떻게 처리하는지를 찾다가 해당 내용을 정리하면 좋을 것 같아서 적어본다.&lt;/p&gt;
 &lt;p&gt;HandlerInterceptor는 특정한 URI 호출을 &amp;lsquo;가로채는&amp;rsquo; 역할을 합니다. 이를 이용하여 기존 컨트롤러의 로직을 수정하지 않고도, 사전이나 사후 제어가 가능합니다.&lt;/p&gt;
 &lt;h2 id=&#34;handlerintercepter-제공-내부-메서드&#34;&gt;HandlerIntercepter 제공 내부 메서드&lt;/h2&gt;
@@ -495,7 +495,7 @@
 &lt;h3 id=&#34;3-aftercompletionrequest-reponse-handler-exception&#34;&gt;3. &lt;strong&gt;afterCompletion(request, reponse, handler, exception)&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Dispatcher Servlet의 화면 처리가 완료된 이후 처리할 동작.&lt;/p&gt;
 &lt;h2 id=&#34;handlerintercepter와-filter의-차이&#34;&gt;HandlerIntercepter와 Filter의 차이&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://choihyungkuen.github.io/ChoiHyungKeun.github.io/ChoiHyungKeun.github.io/assets/posting8.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://choihyungkuen.github.io/assets/posting8.png&#34;
 	
 	
 	
