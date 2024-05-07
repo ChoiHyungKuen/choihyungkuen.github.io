@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>최형근</copyright>
-        <lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://choihyungkuen.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://choihyungkuen.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>개발</title>
         <link>https://choihyungkuen.github.io/categories/%EA%B0%9C%EB%B0%9C/</link>
-        <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
         
         <guid>https://choihyungkuen.github.io/categories/%EA%B0%9C%EB%B0%9C/</guid>
         <description></description>
@@ -22,6 +22,14 @@
         
         <guid>https://choihyungkuen.github.io/categories/test/</guid>
         <description>&lt;img src="https://choihyungkuen.github.io/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
+        </item>
+        <item>
+        <title>업무</title>
+        <link>https://choihyungkuen.github.io/categories/%EC%97%85%EB%AC%B4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://choihyungkuen.github.io/categories/%EC%97%85%EB%AC%B4/</guid>
+        <description></description>
         </item>
         
     </channel>
