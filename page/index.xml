@@ -7,18 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>최형근</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://choihyungkuen.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Archives</title>
-        <link>https://choihyungkuen.github.io/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://choihyungkuen.github.io/archives/</guid>
-        <description></description>
-        </item>
-        <item>
+        <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://choihyungkuen.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>About</title>
         <link>https://choihyungkuen.github.io/about/</link>
-        <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
         
         <guid>https://choihyungkuen.github.io/about/</guid>
         <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -42,6 +34,14 @@
 &lt;p&gt;Learn more and contribute on &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://choihyungkuen.github.io/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://choihyungkuen.github.io/archives/</guid>
+        <description></description>
         </item>
         <item>
         <title>Links</title>
