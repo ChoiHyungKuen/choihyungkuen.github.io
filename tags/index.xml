@@ -7,7 +7,31 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>최형근</copyright>
-        <lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://choihyungkuen.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://choihyungkuen.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>NextJs</title>
+        <link>https://choihyungkuen.github.io/tags/nextjs/</link>
+        <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://choihyungkuen.github.io/tags/nextjs/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>jQuery</title>
+        <link>https://choihyungkuen.github.io/tags/jquery/</link>
+        <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://choihyungkuen.github.io/tags/jquery/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>업무</title>
+        <link>https://choihyungkuen.github.io/tags/%EC%97%85%EB%AC%B4/</link>
+        <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://choihyungkuen.github.io/tags/%EC%97%85%EB%AC%B4/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>git</title>
         <link>https://choihyungkuen.github.io/tags/git/</link>
         <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
